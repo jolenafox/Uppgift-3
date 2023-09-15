@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    max-width: 100%;
+    width: 150px;
+    padding-left: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(153, 198, 153);
+    height: 150px;
+}
+
+.primarynav {
+    display: flex;
+    width: 400px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-right: 50px;
+    font-family:'Gill Sans';
+    font-size: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:rgb(57, 98, 57)
+}
+
+.content {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 40% 60%;
+    margin: 50px 200px;    
+}
+
+.sammypic {
+    margin: 0 0 0 auto;
+}
+
+.sammychip {
+    grid-column: 1 / span 2;
+    width: 100%;
+    margin-top: 50px;
+}
